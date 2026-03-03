@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoImage from 'figma:asset/b42421ea06f7ef8f74b09df484e38296b3691a54.png';
+import logoImage from '/logo.svg';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
