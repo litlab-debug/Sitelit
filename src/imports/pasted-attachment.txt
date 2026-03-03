@@ -1,0 +1,194 @@
+🔝 NAVBAR
+Links: DNA | Soluções | Stack | Arquitetura | Times | Cases | Metodologia CTA: Falar com Especialista
+
+🏠 HERO
+Headline: IDEAS IN ACTION ⚠️ (a ser substituído — cópia da Practia) Subtítulo: Mais de 10 anos co-criando o futuro dos negócios com IA, Automação e Engenharia Digital. CTA Primário: Agendar Diagnóstico CTA Secundário: Nossas Soluções
+
+Métricas (Desktop):
+
+200+ → Projetos realizados
+50+ → Funcionários Digitais
+98% → Satisfação dos clientes
+24/7 → Suporte Enterprise
+Métricas (Mobile):
+
+200+ → Projetos
+50+ → Funcionários Digitais
+98% → Satisfação
+24/7 → Suporte
+🏢 CLIENTES (Marquee infinito)
+Pill: Clientes Título: Nossos Clientes
+
+Logos/Nomes: Bradesco, Itaú, Ambev, Vale, Petrobras, Magazine Luiza, Natura, Embraer, Votorantim, Suzano, Raízen, B3, Siemens, Bosch, Samsung, LG, Nestlé, Unilever, JBS, BRF, CPFL, Energisa, Tim, Claro
+
+🎯 MISSÃO / VISÃO / VALORES
+Pill: Somos LIT Título: Quem Somos Subtítulo: A ponte entre tecnologia e negócios, alavancando o crescimento das empresas com transformação digital e cultural.
+
+Card 1 — Nossa Missão (ícone: Target, cor: cyan) Ser a ponte entre tecnologia e negócios, alavancando o crescimento das empresas e acompanhando sua transformação digital e cultural com excelência e governança.
+
+Card 2 — Nossa Visão (ícone: Eye, cor: indigo) Ser o parceiro tecnológico de escolha para a jornada de transformação empresarial, apoiando empresas sem fronteiras, desafiando-nos constantemente.
+
+Card 3 — Nossos Valores (ícone: Heart, cor: purple) Paixão pelo sucesso • Inovação contínua • Empatia e colaboração • Curiosidade e criatividade • Construção coletiva • Ambiente inclusivo • Evolução permanente.
+
+🧬 DNA LIT
+Pill: DNA LIT Título: O que nos torna diferentes Texto: A LIT não desenvolve apenas soluções tecnológicas. Estruturamos transformação digital com governança, métricas e ROI comprovado.
+
+6 Cards:
+
+Arquitetura antes do código — Nenhum projeto começa sem blueprint técnico e aprovação de arquitetura.
+Governança como fundamento — Processos auditáveis, rastreáveis e controlados desde o primeiro dia.
+ROI mensurável e documentado — Cada iniciativa gera valor tangível, apresentado ao board com KPIs claros.
+Segurança & LGPD — Compliance total, políticas de acesso rigorosas e auditoria permanente.
+Escalabilidade nativa — De 10 para 10.000 usuários sem retrabalho — arquitetura preparada para crescer.
+Performance operacional — Eficiência máxima em cada camada da operação digital corporativa.
+🤖 PRODUTO — SeuFuncionárioDigital
+Pill: Produto Principal Título: SeuFuncionárioDigital Subtítulo: Funcionários Digitais treinados com IA para executar processos com precisão, escala e inteligência — 24 horas por dia, 7 dias por semana, sem erros humanos.
+
+Card Destaque (gradient):
+
+Empresas de alta performance contratam Funcionários Digitais. O SeuFuncionárioDigital transforma processos manuais em operações automatizadas com IA, RPA e integração enterprise.
+
+Arquitetura estruturada
+Governança e LGPD
+Logs completos e auditoria
+ROI comprovado e documentado
+CTA: Solicitar Demo
+
+8 Feature Cards:
+
+Conferência de processos — Validação automática com IA e regras de negócio
+Validação de documentos — OCR + IA para extração e conferência inteligente
+Visão computacional — Inspeção de qualidade industrial por câmeras
+Processos industriais — Automação de rotinas operacionais e produtivas
+Processos financeiros — Conciliação, relatórios e compliance automatizado
+Back-office digital — Automação de rotinas administrativas e repetitivas
+Integração ERP — SAP, Oracle, TOTVS — conectores bidirecionais
+Monitoramento 24/7 — Dashboards operacionais e alertas em tempo real
+⚡ STACK TECNOLÓGICO
+Pill: Stack Tecnológico Título: Tecnologias de classe mundial Texto: Dominamos as principais plataformas de automação, IA, low-code e high-code do mercado. O diferencial é como orquestramos tudo com arquitetura e governança enterprise.
+
+4 Blocos:
+
+1. Chatbots & Agentes de IA (cor: cyan) Atendimento inteligente multi-canal com IA generativa, RAG e processamento de linguagem natural. Tags: WhatsApp Business API, Microsoft Teams, Web Chat, IA Generativa (GPT/Claude), RAG Enterprise, NLP customizado Tools: OpenAI, WhatsApp, Microsoft Teams
+
+2. Workflow & Orquestração (cor: indigo) Automação de processos complexos com plataformas enterprise e integrações multi-sistema. Tags: n8n Enterprise, Power Automate, Automation Anywhere, Webhooks & APIs, Event-Driven Architecture Tools: n8n, Automation Anywhere, Power Automate
+
+3. RPA & Automação Legacy (cor: purple) Automação robótica para sistemas legados, mainframes e interfaces tradicionais. Tags: Automation Anywhere, UiPath, Power Automate Desktop, IBM, Screen Scraping Tools: Automation Anywhere, UiPath, IBM
+
+4. Low-Code & High-Code Enterprise (cor: cyan) Aplicações corporativas combinando Low-Code (Power Platform) e High-Code (React, Node.js, Python, .NET). Tags: Power Apps, Power BI, Dataverse, React / Node.js, .NET / Python, Azure DevOps Tools: Power BI, Power Apps, Azure DevOps
+
+Rodapé da seção: Tecnologias & Plataformas que Dominamos (grid de logos) CTA: Fale com um especialista sobre sua stack
+
+🏗️ ARQUITETURA
+Pill: Infraestrutura Título: Arquitetura Digital Enterprise-Grade Texto: Projetamos infraestrutura com os mais altos padrões de segurança, governança e escalabilidade — pronta para operar em ambiente de missão crítica. Powered by: Azure, Docker, Kubernetes, PostgreSQL, GitHub CTA: Solicitar Proposta de Arquitetura
+
+6 Cards:
+
+Ambientes Dev / HML / Prod — Ambientes isolados com promoção controlada e CI/CD automatizado via Azure DevOps
+Azure AD & Identity — Single Sign-On, MFA, RBAC e Zero Trust para controle de acesso corporativo
+DevOps & CI/CD — Azure DevOps, GitHub Actions, pipelines automatizados e deploy contínuo
+LGPD & Compliance — Conformidade total com LGPD, auditoria de dados e DLP integrado
+Integrações Enterprise — SAP, Oracle, IBM, TOTVS — conectores bidirecionais seguros em tempo real
+Cloud-Native & APIs — Microserviços, containers Docker/K8s, APIs REST/GraphQL e escalabilidade elástica
+👥 TIMES
+Pill: Pessoas Título: Engenharia de Times Subtítulo: Alocação estratégica de profissionais de TI para operações críticas de alta complexidade.
+
+Perfis Disponíveis: Gerente de Projetos (PM), Scrum Master, Product Owner, Arquiteto de Soluções, Desenvolvedor Power Platform, Desenvolvedor RPA, Especialista em Integração, Analista de Negócios (BA), Analista BI / Power BI, Analista Suporte N1/N2/N3, Engenheiro de Dados, Especialista em IA/ML
+
+Modelos de Alocação:
+
+Body Shop Estratégico — Profissionais alocados sob demanda com curadoria técnica
+Squad Dedicada — Time completo e exclusivo para projetos de longa duração
+Projeto Fechado — Escopo definido, cronograma e entrega garantida
+SLA & Sustentação — Acordo de nível de serviço com evolução contínua
+24x7 / Hypercare — Suporte ininterrupto pós-go-live para operações críticas
+CTA: Monte seu time ideal
+
+📋 METODOLOGIA
+Pill: Gestão de Projetos Título: Portfólio GP & Metodologia
+
+4 Metodologias:
+
+Scrum — Sprints de 2 semanas com entregas incrementais
+Kanban — Fluxo contínuo para operações de sustentação
+PMBOK — Gestão waterfall para projetos de escopo fechado
+Híbrido — Combinação adaptada à realidade do cliente
+6 Capabilities:
+
+Gestão de escopo — Backlog priorizado com stakeholders alinhados
+Gestão de riscos — Identificação proativa e planos de mitigação
+Controle financeiro — Budget tracking em tempo real com alertas
+KPIs e OKRs — Métricas de performance alinhadas aos objetivos
+Steering Committee — Governança executiva com cadência mensal
+Relatórios C-Level — Reportes automatizados para diretoria
+🛠️ SERVIÇOS GERENCIADOS
+Pill: Serviços Gerenciados Título: LIT Managed Services Subtítulo: Operação contínua com excelência, segurança e escalabilidade para sua empresa.
+
+5 Cards:
+
+Monitoramento — Vigilância contínua com alertas inteligentes e dashboards operacionais em tempo real.
+Sustentação Evolutiva — Melhoria contínua com foco em performance, estabilidade e novas funcionalidades.
+Suporte Técnico — Atendimento multi-nível (N1/N2/N3) com SLA garantido e escalação inteligente.
+Governança Contínua — Auditorias regulares, compliance permanente e gestão de mudanças controlada.
+Operação Assistida — Especialistas dedicados acompanhando a operação digital da sua empresa.
+✅ DIFERENCIAIS
+Pill: Por que a LIT Título: Diferenciais Competitivos Texto: O que separa a LIT de fornecedores comuns de tecnologia e consultorias tradicionais. CTA: Descubra como podemos ajudar
+
+7 Itens:
+
+Know-how enterprise comprovado — Experiência real em operações de alta complexidade com grandes corporações
+Center of Excellence (CoE) — Estruturação de CoE Power Platform com governança e boas práticas
+Foco obsessivo em ROI — Cada projeto com métricas de retorno documentadas e apresentadas ao board
+Escalabilidade rápida de times — De 5 para 50 profissionais em semanas — com curadoria técnica rigorosa
+Integração com qualquer sistema — SAP, IBM, Oracle, TOTVS, sistemas legados — sem limitações técnicas
+Arquitetura antes da execução — Blueprint técnico completo antes de qualquer linha de código
+Visão estratégica + execução técnica — Do planejamento com o C-Level à implementação na linha de produção
+📊 CASES DE SUCESSO
+Pill: Portfólio Título: Cases de Sucesso Subtítulo: Resultados reais em operações enterprise de alta complexidade.
+
+Stats:
+
+40.000+ Horas salvas por ano
+100+ Apps criados
+200+ Dashboards entregues
+50+ Funcionários Digitais ativos
+Filtros: Todos, Visão Computacional, Governança, IA & RPA, Managed Services, Power BI, Apps, Workflow, Compliance, RPA, Sustentação, IA Conversacional, Integração, Body Shop, Engenharia de Apps, Engenharia de Dados
+
+24 Cases (título | tag | resultado):
+
+Automação industrial com visão computacional | Visão Computacional | 80% redução de falhas
+Estruturação de CoE Power Platform | Governança | 3 squads implantados
+Funcionário Digital para conferência de processos | IA & RPA | 12.000 horas/ano salvas
+Suporte 24x7 corporativo multinacional | Managed Services | 99.8% SLA atingido
+Fábrica de BI — dashboards financeiros | Power BI | 45 painéis entregues
+Portal de gestão de contratos em Power Apps | Apps | 100% digital
+Automatização de relatórios executivos C-Level | Power BI | 8h/semana economizadas
+Orquestração de processos com n8n + APIs | Workflow | 15 integrações ativas
+Governança LGPD em ambiente Power Platform | Compliance | 100% conformidade
+Automatização de rotinas financeiras com RPA | RPA | 5.000 horas/ano salvas
+Sustentação evolutiva de 30+ apps em produção | Sustentação | 30 apps mantidos
+Chatbot de atendimento com IA generativa | IA Conversacional | 70% automação
+Integração ERP SAP + Dataverse em tempo real | Integração | Sync em tempo real
+Inspeção de qualidade por câmeras industriais | Visão Computacional | 95% acurácia
+Squad dedicada para operação crítica 24x7 | Body Shop | 12 profissionais
+Fábrica de painéis operacionais para indústria | Power BI | 60+ dashboards
+Construção de apps corporativos sob medida | Engenharia de Apps | 25 apps entregues
+Engenharia de dados — pipelines e ETL | Engenharia de Dados | 3TB processados/mês
+App de checklist operacional para campo | Apps | 500 usuários ativos
+Painel de indicadores industriais em tempo real | Power BI | Decisão em minutos
+Plataforma de onboarding digital de colaboradores | Engenharia de Apps | 90% automação
+Data lake corporativo com governança de dados | Engenharia de Dados | 15 fontes integradas
+App de gestão de ativos com inventário inteligente | Apps | 10.000 ativos geridos
+Dashboard de performance comercial multicanal | Power BI | ROI visível em 30 dias
+📞 CTA FINAL
+Pill: Próximo Passo Título: Pronto para estruturar sua transformação digital? Texto: Agende um diagnóstico estratégico gratuito com nossos especialistas e descubra como a LIT pode acelerar seus resultados. CTA: Agendar Diagnóstico Gratuito Email: contato@litdigital.com.br Telefone: +55 (11) 0000-0000 Local: São Paulo, Brasil
+
+🔻 FOOTER
+Descrição: Consultoria especializada em ecossistemas digitais inteligentes — IA, automação, Power Platform, engenharia de dados e times de alta performance.
+
+Soluções: SeuFuncionárioDigital, Chatbots & IA, Power Platform, RPA Enterprise, Engenharia de Dados Serviços: Managed Services, Body Shop & Squads, Sustentação Evolutiva, Arquitetura Corporativa Empresa: Sobre a LIT, Cases de Sucesso, Metodologia, Contato
+
+Rodapé: © 2026 LIT Digital Transformation. Todos os direitos reservados. Links: Política de Privacidade | Termos de Uso
+
+🎨 DESIGN SYSTEM
+Fontes: Space Grotesk (títulos) + Inter (corpo) Cores Brand: Cyan hsl(195 90% 50%) | Indigo hsl(230 55% 60%) | Purple hsl(260 65% 60%) Background: hsl(225 15% 8%) | Darker: hsl(225 15% 6%) Card: hsl(225 15% 12%) | Border: hsl(225 15% 18%) Foreground: hsl(0 0% 95%) | Muted: hsl(220 10% 55%) Gradients: Cyan→Purple (135deg) | Cyan→Indigo→Purple (135deg) Efeitos: Glassmorphism, dot-pattern, grid-pattern, anéis animados, orbes de luz, marquee infinito
