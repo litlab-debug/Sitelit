@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Linkedin, Mail } from 'lucide-react';
-import logoImage from '/logo.svg';
+const logoFooter = '/lit colorido_Prancheta 1 (1) (1).png';
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           {/* Logo and description */}
           <div className="lg:col-span-2">
             <img 
-              src={logoImage} 
+              src={logoFooter} 
               alt="LIT Digital Transformation" 
               className="h-12 mb-6" 
               style={{ mixBlendMode: 'screen' }}

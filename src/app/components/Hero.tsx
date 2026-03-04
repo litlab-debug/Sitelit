@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, Zap, Shield, TrendingUp } from 'lucide-react';
-import logoImage from '/logo.svg';
+import logoImage from '/logo.png';
 
 export function Hero() {
   return (

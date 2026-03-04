@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoImage from '/logo.svg';
+import logoImage from '/logo.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
