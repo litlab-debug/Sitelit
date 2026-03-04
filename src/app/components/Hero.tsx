@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, Zap, Shield, TrendingUp } from 'lucide-react';
-import logoImage from 'figma:asset/b42421ea06f7ef8f74b09df484e38296b3691a54.png';
+import logoImage from '/logo.png';
 
 export function Hero() {
   const whatsappUrl = 'https://wa.me/5511910162966?text=Olá!%20Gostaria%20de%20agendar%20um%20diagnóstico%20com%20a%20LIT.';
