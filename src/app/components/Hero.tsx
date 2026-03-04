@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, Zap, Shield, TrendingUp } from 'lucide-react';
-import logoImage from '/logo.png';
+import { LOGO_COLORIDO } from '../assets';
 
 export function Hero() {
   return (
@@ -188,7 +188,7 @@ export function Hero() {
                 }}
               >
                 <img
-                  src={logoImage}
+                  src={LOGO_COLORIDO}
                   alt="LIT Digital Transformation"
                   className="w-full drop-shadow-[0_0_60px_rgba(59,130,246,0.6)]"
                   style={{ mixBlendMode: 'screen' }}
