@@ -1,7 +1,12 @@
 import { motion } from 'motion/react';
+import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
+// Para receber os e-mails: 1) Cadastre-se em https://formspree.io 2) Crie um formulário 3) Substitua YOUR_FORM_ID pelo ID do seu formulário
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+
 export function Contact() {
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   return (
     <section id="contato" className="relative py-32 bg-black overflow-hidden">
       {/* Animated background */}
@@ -115,14 +120,42 @@ export function Contact() {
               {/* Glow effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 opacity-50" />
 
-              <form className="relative space-y-6">
+              <form
+                className="relative space-y-6"
+                action={FORMSPREE_ENDPOINT}
+                method="POST"
+                onSubmit={async (e) => {
+                  e.preventDefault();
+                  setStatus('loading');
+                  const form = e.currentTarget;
+                  const formData = new FormData(form);
+                  try {
+                    const res = await fetch(FORMSPREE_ENDPOINT, {
+                      method: 'POST',
+                      body: formData,
+                      headers: { Accept: 'application/json' },
+                    });
+                    if (res.ok) {
+                      setStatus('success');
+                      form.reset();
+                    } else {
+                      setStatus('error');
+                    }
+                  } catch {
+                    setStatus('error');
+                  }
+                }}
+              >
+                <input type="text" name="_gotcha" className="hidden" tabIndex={-1} autoComplete="off" />
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-400 mb-3">
                       Nome Completo
                     </label>
                     <input
+                      name="name"
                       type="text"
+                      required
                       className="w-full px-5 py-4 rounded-xl bg-black/50 border border-gray-800 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 text-white transition-all"
                       placeholder="João Silva"
                     />
@@ -132,7 +165,9 @@ export function Contact() {
                       Email Corporativo
                     </label>
                     <input
+                      name="email"
                       type="email"
+                      required
                       className="w-full px-5 py-4 rounded-xl bg-black/50 border border-gray-800 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-white transition-all"
                       placeholder="joao@empresa.com"
                     />
@@ -145,6 +180,7 @@ export function Contact() {
                       Empresa
                     </label>
                     <input
+                      name="company"
                       type="text"
                       className="w-full px-5 py-4 rounded-xl bg-black/50 border border-gray-800 focus:border-pink-500 focus:outline-none focus:ring-2 focus:ring-pink-500/50 text-white transition-all"
                       placeholder="Nome da Empresa"
@@ -155,6 +191,7 @@ export function Contact() {
                       Telefone
                     </label>
                     <input
+                      name="phone"
                       type="tel"
                       className="w-full px-5 py-4 rounded-xl bg-black/50 border border-gray-800 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 text-white transition-all"
                       placeholder="(11) 9 9999-9999"
@@ -167,19 +204,33 @@ export function Contact() {
                     Como podemos ajudar?
                   </label>
                   <textarea
+                    name="message"
                     rows={5}
+                    required
                     className="w-full px-5 py-4 rounded-xl bg-black/50 border border-gray-800 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-white resize-none transition-all"
                     placeholder="Conte-nos sobre seu projeto ou desafio..."
                   />
                 </div>
 
+                {status === 'success' && (
+                  <p className="text-center text-green-400 font-semibold">
+                    Mensagem enviada! Responderemos em breve.
+                  </p>
+                )}
+                {status === 'error' && (
+                  <p className="text-center text-red-400 font-semibold">
+                    Erro ao enviar. Tente novamente ou envie para adm@littechnologia.com
+                  </p>
+                )}
+
                 <motion.button
                   type="submit"
-                  className="w-full px-8 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-xl font-bold text-lg shadow-2xl hover:shadow-[0_0_40px_rgba(168,85,247,0.5)] transition-all duration-300 flex items-center justify-center gap-3"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+                  disabled={status === 'loading'}
+                  className="w-full px-8 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-xl font-bold text-lg shadow-2xl hover:shadow-[0_0_40px_rgba(168,85,247,0.5)] transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-70"
+                  whileHover={status !== 'loading' ? { scale: 1.02 } : {}}
+                  whileTap={status !== 'loading' ? { scale: 0.98 } : {}}
                 >
-                  Agendar Diagnóstico Gratuito
+                  {status === 'loading' ? 'Enviando...' : 'Agendar Diagnóstico Gratuito'}
                   <Send className="w-5 h-5" />
                 </motion.button>
 
