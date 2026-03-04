@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Linkedin, Mail } from 'lucide-react';
-import { LOGO_COLORIDO } from '../assets';
+import logoImage from '/logo.png';
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           {/* Logo and description */}
           <div className="lg:col-span-2">
             <img 
-              src={LOGO_COLORIDO} 
+              src={logoImage} 
               alt="LIT Digital Transformation" 
               className="h-12 mb-6" 
               style={{ mixBlendMode: 'screen' }}

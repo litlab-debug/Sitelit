@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { LOGO_COLORIDO } from '../assets';
+import logoImage from '/logo.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ export function Navbar() {
             className="flex items-center"
             whileHover={{ scale: 1.05 }}
           >
-            <img src={LOGO_COLORIDO} alt="LIT Digital Transformation" className="h-10" />
+            <img src={logoImage} alt="LIT Digital Transformation" className="h-10" />
           </motion.a>
 
           {/* Desktop Menu */}
