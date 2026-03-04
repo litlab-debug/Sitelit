@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export function Contact() {
   return (
-    <section className="relative py-32 bg-black overflow-hidden">
+    <section id="contato" className="relative py-32 bg-black overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-950/50 via-purple-950/50 to-pink-950/50" />

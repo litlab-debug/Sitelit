@@ -1,8 +1,10 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, Zap, Shield, TrendingUp } from 'lucide-react';
-import logoImage from '/logo.png';
+import logoImage from 'figma:asset/b42421ea06f7ef8f74b09df484e38296b3691a54.png';
 
 export function Hero() {
+  const whatsappUrl = 'https://wa.me/5511910162966?text=Olá!%20Gostaria%20de%20agendar%20um%20diagnóstico%20com%20a%20LIT.';
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20">
       {/* Animated mesh gradient background */}
@@ -110,8 +112,11 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
-              <motion.button
-                className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl font-bold text-lg shadow-2xl overflow-hidden"
+              <motion.a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl font-bold text-lg shadow-2xl overflow-hidden text-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -125,15 +130,16 @@ export function Hero() {
                   Agendar Diagnóstico
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </span>
-              </motion.button>
+              </motion.a>
               
-              <motion.button
-                className="px-10 py-5 bg-white/10 backdrop-blur-xl text-white border-2 border-white/30 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all duration-300"
+              <motion.a
+                href="#solucoes"
+                className="px-10 py-5 bg-white/10 backdrop-blur-xl text-white border-2 border-white/30 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all duration-300 text-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 Nossas Soluções
-              </motion.button>
+              </motion.a>
             </motion.div>
           </motion.div>
 

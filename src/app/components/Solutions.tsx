@@ -5,35 +5,35 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 const solutions = [
   {
     title: 'SeuFuncionárioDigital',
-    subtitle: 'Automação Inteligente Enterprise',
-    description: 'Funcionários Digitais treinados com IA para executar processos com precisão, escala e inteligência — 24 horas por dia, 7 dias por semana, sem erros humanos.',
-    image: 'https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2JvdGljJTIwcHJvY2VzcyUyMGF1dG9tYXRpb24lMjBmYWN0b3J5fGVufDF8fHx8MTc3MjU1MDc0MHww&ixlib=rb-4.1.0&q=80&w=1080',
+    subtitle: 'Além de Chatbot: IA Empresarial Completa',
+    description: 'Muito mais que chatbot — um funcionário digital completo com conhecimento profundo do seu negócio, integrações ERP/CRM, visão computacional, análise de documentos e capacidade de executar processos complexos com autonomia e inteligência.',
+    image: 'https://images.unsplash.com/photo-1758626099012-2904337e9c60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMGRpZ2l0YWwlMjBlbXBsb3llZSUyMGtub3dsZWRnZSUyMGJhc2UlMjBpbnRlZ3JhdGlvbnxlbnwxfHx8fDE3NzI1ODcxNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     gradient: 'from-blue-600 to-cyan-500',
     benefits: [
-      'Validação automática com IA',
-      'OCR + IA para documentos',
-      'Visão computacional industrial',
-      'Integração ERP completa',
+      'Base de conhecimento empresarial',
+      'Integrações ERP/CRM/SAP',
+      'Visão computacional + OCR IA',
+      'Execução autônoma de processos',
     ],
   },
   {
-    title: 'IA & Machine Learning',
-    subtitle: 'Inteligência que Aprende',
-    description: 'Modelos de IA customizados para análise preditiva, reconhecimento de padrões e automação inteligente com governança enterprise.',
-    image: 'https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2UlMjBidXNpbmVzc3xlbnwxfHx8fDE3NzI1NTA3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    title: 'Chatbots & IA',
+    subtitle: 'Inteligência Conversacional',
+    description: 'Chatbots inteligentes com IA Generativa (GPT, Claude) para atendimento, vendas e suporte — integrados com seus sistemas e disponíveis 24/7.',
+    image: 'https://images.unsplash.com/photo-1751448582395-27fc57293f1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwY2hhdGJvdCUyMGNvbnZlcnNhdGlvbnxlbnwxfHx8fDE3NzI1ODY3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     gradient: 'from-purple-600 to-pink-500',
     benefits: [
       'IA Generativa (GPT/Claude)',
       'RAG Enterprise',
       'NLP customizado',
-      'Chatbots inteligentes',
+      'Integração omnichannel',
     ],
   },
   {
-    title: 'Power Platform Enterprise',
+    title: 'Power Platform',
     subtitle: 'Low-Code + High-Code',
     description: 'Aplicações corporativas combinando Low-Code (Power Platform) e High-Code (React, Node.js, Python, .NET) com arquitetura robusta.',
-    image: 'https://images.unsplash.com/photo-1726065235158-d9c3f817f331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwdHJhbnNmb3JtYXRpb24lMjBlbnRlcnByaXNlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI1NDI5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1617780421515-08fae9caa171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBwb3dlciUyMHBsYXRmb3JtJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3MjU4Njc5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     gradient: 'from-orange-600 to-red-500',
     benefits: [
       'Power Apps + Power BI',
@@ -43,23 +43,38 @@ const solutions = [
     ],
   },
   {
-    title: 'Arquitetura Digital',
-    subtitle: 'Infraestrutura Enterprise-Grade',
-    description: 'Infraestrutura com os mais altos padrões de segurança, governança e escalabilidade — pronta para operações de missão crítica.',
-    image: 'https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMHNlcnZlciUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzcyNTUwNzQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    gradient: 'from-green-600 to-emerald-500',
+    title: 'RPA Enterprise',
+    subtitle: 'Automação Robótica de Processos',
+    description: 'Automação inteligente de processos repetitivos com UiPath, Automation Anywhere e Power Automate — reduzindo custos e aumentando a produtividade.',
+    image: 'https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2JvdGljJTIwcHJvY2VzcyUyMGF1dG9tYXRpb24lMjBmYWN0b3J5fGVufDF8fHx8MTc3MjU1MDc0MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    gradient: 'from-indigo-600 to-blue-500',
     benefits: [
-      'Azure Cloud Native',
-      'Docker + Kubernetes',
-      'CI/CD automatizado',
-      'LGPD & Compliance total',
+      'UiPath + Automation Anywhere',
+      'Power Automate Desktop',
+      'Orquestração de bots',
+      'Monitoramento 24/7',
+    ],
+  },
+  {
+    title: 'Engenharia de Dados',
+    subtitle: 'Data Lakehouse & Analytics',
+    description: 'Arquitetura completa de dados: ingestão, transformação, armazenamento e análise com as melhores práticas de Data Engineering e BI.',
+    image: 'https://images.unsplash.com/photo-1761449779811-33f7c48ed367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZW5naW5lZXJpbmclMjBwaXBlbGluZSUyMGFuYWx5dGljc3xlbnwxfHx8fDE3NzI1ODY4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    gradient: 'from-teal-600 to-cyan-500',
+    benefits: [
+      'Azure Synapse + Databricks',
+      'ETL/ELT com ADF',
+      'Data Lakehouse',
+      'Power BI + Analytics',
     ],
   },
 ];
 
 export function Solutions() {
+  const whatsappUrl = 'https://wa.me/5511910162966?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20da%20LIT.';
+  
   return (
-    <section className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden">
+    <section id="solucoes" className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden">
       {/* Grid background */}
       <div className="absolute inset-0 opacity-20">
         <div
@@ -177,6 +192,7 @@ export function Solutions() {
                     className={`group px-8 py-4 bg-gradient-to-r ${solution.gradient} text-white rounded-2xl font-bold shadow-2xl hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] transition-all duration-300`}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={() => window.open(whatsappUrl, '_blank')}
                   >
                     <span className="flex items-center gap-2">
                       Saiba Mais

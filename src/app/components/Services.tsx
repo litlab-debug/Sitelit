@@ -48,7 +48,7 @@ const services = [
 
 export function Services() {
   return (
-    <section className="py-32 bg-black relative overflow-hidden">
+    <section id="dna" className="py-32 bg-black relative overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black" />
       <div className="absolute inset-0 opacity-30">

@@ -36,7 +36,7 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section className="relative py-32 bg-black overflow-hidden">
+    <section id="cases" className="relative py-32 bg-black overflow-hidden">
       {/* Background gradient orbs */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-[120px]" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-[120px]" />

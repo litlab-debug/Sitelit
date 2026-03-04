@@ -1,257 +1,257 @@
 import { motion } from 'motion/react';
 
 const technologies = [
-  // RPA Tools
+  // 🤖 RPA Tools
   {
     name: 'UiPath',
-    logo: 'https://www.vectorlogo.zone/logos/uipath/uipath-ar21.svg',
+    logo: 'https://cdn.simpleicons.org/uipath',
     category: 'RPA',
     gradient: 'from-orange-500 to-red-500',
   },
   {
     name: 'Automation Anywhere',
-    logo: 'https://www.automationanywhere.com/sites/default/files/images/easyblog_articles/2144/b2ap3_large_aa-logo-2019.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Automation_Anywhere_Logo.png',
     category: 'RPA',
     gradient: 'from-orange-600 to-orange-500',
   },
   {
     name: 'Blue Prism',
-    logo: 'https://www.vectorlogo.zone/logos/blueprism/blueprism-ar21.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Blue_Prism_logo.png',
     category: 'RPA',
     gradient: 'from-blue-600 to-blue-400',
   },
   {
     name: 'Power Automate',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
+    logo: 'https://cdn.simpleicons.org/microsoftpowerautomate',
     category: 'RPA',
     gradient: 'from-blue-500 to-cyan-500',
   },
   
-  // AI/ML Platforms
+  // 🧠 AI/ML Platforms
   {
     name: 'OpenAI',
-    logo: 'https://www.vectorlogo.zone/logos/openai/openai-icon.svg',
+    logo: 'https://cdn.simpleicons.org/openai',
     category: 'AI',
     gradient: 'from-green-400 to-teal-400',
   },
   {
     name: 'Anthropic',
-    logo: 'https://pbs.twimg.com/profile_images/1779883296919216128/w2fkMWRe_400x400.jpg',
+    logo: 'https://cdn.simpleicons.org/anthropic',
     category: 'AI',
     gradient: 'from-orange-400 to-amber-400',
   },
   {
     name: 'Google AI',
-    logo: 'https://www.vectorlogo.zone/logos/google/google-icon.svg',
+    logo: 'https://cdn.simpleicons.org/google',
     category: 'AI',
     gradient: 'from-blue-500 to-red-500',
   },
   {
     name: 'Hugging Face',
-    logo: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg',
+    logo: 'https://huggingface.co/front/assets/huggingface_logo.svg',
     category: 'AI/ML',
     gradient: 'from-yellow-400 to-orange-500',
   },
   {
     name: 'LangChain',
-    logo: 'https://avatars.githubusercontent.com/u/126733545?s=280&v=4',
+    logo: 'https://avatars.githubusercontent.com/u/126733545?s=200&v=4',
     category: 'AI',
     gradient: 'from-green-500 to-emerald-500',
   },
   {
     name: 'TensorFlow',
-    logo: 'https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg',
+    logo: 'https://cdn.simpleicons.org/tensorflow',
     category: 'ML',
     gradient: 'from-orange-500 to-orange-600',
   },
   {
     name: 'PyTorch',
-    logo: 'https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg',
+    logo: 'https://cdn.simpleicons.org/pytorch',
     category: 'ML',
     gradient: 'from-red-500 to-orange-500',
   },
   {
     name: 'Azure AI',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg',
+    logo: 'https://cdn.simpleicons.org/microsoftazure',
     category: 'AI Cloud',
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     name: 'IBM Watson',
-    logo: 'https://www.vectorlogo.zone/logos/ibm/ibm-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
     category: 'AI',
     gradient: 'from-blue-600 to-indigo-600',
   },
   {
     name: 'AWS AI',
-    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg',
+    logo: 'https://cdn.simpleicons.org/amazonaws',
     category: 'AI Cloud',
     gradient: 'from-orange-500 to-yellow-500',
   },
   
-  // Workflow & Automation
+  // ⚡ Workflow & Automation
   {
-    name: 'N8N',
-    logo: 'https://n8n.io/n8n-logo.png',
+    name: 'n8n',
+    logo: 'https://cdn.simpleicons.org/n8n',
     category: 'Workflow',
     gradient: 'from-pink-500 to-rose-500',
   },
   {
     name: 'Zapier',
-    logo: 'https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg',
+    logo: 'https://cdn.simpleicons.org/zapier',
     category: 'Automation',
     gradient: 'from-orange-500 to-orange-600',
   },
   {
     name: 'Make',
-    logo: 'https://www.make.com/en/assets/brand/make-logo-black.svg',
+    logo: 'https://www.make.com/en/favicon.ico',
     category: 'Automation',
     gradient: 'from-purple-500 to-violet-500',
   },
   {
     name: 'Airflow',
-    logo: 'https://www.vectorlogo.zone/logos/apache_airflow/apache_airflow-icon.svg',
+    logo: 'https://cdn.simpleicons.org/apacheairflow',
     category: 'Workflow',
     gradient: 'from-teal-500 to-cyan-500',
   },
   
-  // Microsoft Power Platform
+  // 💼 Microsoft Power Platform
   {
     name: 'Power Platform',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg',
     category: 'Low-Code',
     gradient: 'from-purple-500 to-violet-500',
   },
   {
     name: 'Power Apps',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Powerapps-logo.png',
     category: 'Low-Code',
     gradient: 'from-purple-600 to-pink-600',
   },
   {
     name: 'Power BI',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg',
     category: 'Analytics',
     gradient: 'from-yellow-500 to-orange-500',
   },
   
-  // Cloud & Infrastructure
+  // ☁️ Cloud & Infrastructure
   {
     name: 'Azure',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg',
     category: 'Cloud',
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     name: 'AWS',
-    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
     category: 'Cloud',
     gradient: 'from-orange-500 to-yellow-600',
   },
   {
     name: 'Google Cloud',
-    logo: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg',
     category: 'Cloud',
     gradient: 'from-blue-500 to-red-500',
   },
   
-  // Development
+  // 💻 Development
   {
     name: 'Python',
-    logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
     category: 'Language',
     gradient: 'from-blue-400 to-yellow-400',
   },
   {
     name: 'TypeScript',
-    logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg',
     category: 'Language',
     gradient: 'from-blue-600 to-blue-500',
   },
   {
     name: 'JavaScript',
-    logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
     category: 'Language',
     gradient: 'from-yellow-400 to-yellow-500',
   },
   {
     name: 'React',
-    logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
     category: 'Frontend',
     gradient: 'from-cyan-400 to-blue-500',
   },
   {
     name: 'Node.js',
-    logo: 'https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
     category: 'Backend',
     gradient: 'from-green-500 to-emerald-500',
   },
   {
     name: '.NET',
-    logo: 'https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
     category: 'Framework',
     gradient: 'from-purple-600 to-indigo-600',
   },
   {
     name: 'FastAPI',
-    logo: 'https://www.vectorlogo.zone/logos/fastapi/fastapi-icon.svg',
+    logo: 'https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png',
     category: 'API',
     gradient: 'from-teal-500 to-green-500',
   },
   
-  // DevOps & Containers
+  // 🔧 DevOps & Containers
   {
     name: 'Docker',
-    logo: 'https://www.vectorlogo.zone/logos/docker/docker-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg',
     category: 'DevOps',
     gradient: 'from-blue-500 to-sky-500',
   },
   {
     name: 'Kubernetes',
-    logo: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg',
     category: 'Orchestration',
     gradient: 'from-blue-600 to-indigo-600',
   },
   {
     name: 'Git',
-    logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg',
     category: 'Version Control',
     gradient: 'from-orange-600 to-red-600',
   },
   {
     name: 'Azure DevOps',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Azure_DevOps_Logo.svg',
     category: 'CI/CD',
     gradient: 'from-blue-500 to-blue-600',
   },
   
-  // Databases
+  // 🗄️ Databases
   {
     name: 'PostgreSQL',
-    logo: 'https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg',
     category: 'Database',
     gradient: 'from-blue-500 to-blue-700',
   },
   {
     name: 'MongoDB',
-    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg',
     category: 'Database',
     gradient: 'from-green-500 to-green-700',
   },
   {
     name: 'Redis',
-    logo: 'https://www.vectorlogo.zone/logos/redis/redis-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Redis_logo.svg',
     category: 'Cache',
     gradient: 'from-red-500 to-red-600',
   },
   {
     name: 'SQL Server',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/8/8c/Microsoft_SQL_Server_Logo.svg',
     category: 'Database',
     gradient: 'from-red-600 to-orange-600',
   },
   
-  // Additional AI/ML Tools
+  // 📊 Data Science & ML
   {
     name: 'Scikit-learn',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg',
@@ -266,25 +266,25 @@ const technologies = [
   },
   {
     name: 'Pandas',
-    logo: 'https://www.vectorlogo.zone/logos/usepanda/usepanda-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg',
     category: 'Data Science',
     gradient: 'from-blue-600 to-purple-600',
   },
   {
     name: 'NumPy',
-    logo: 'https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo.svg',
     category: 'Data Science',
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     name: 'OpenCV',
-    logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg',
     category: 'Computer Vision',
     gradient: 'from-green-500 to-blue-500',
   },
   {
     name: 'Selenium',
-    logo: 'https://www.vectorlogo.zone/logos/seleniumhq/seleniumhq-ar21.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png',
     category: 'Automation',
     gradient: 'from-green-600 to-green-500',
   },
@@ -296,15 +296,17 @@ const technologies = [
   },
   {
     name: 'Puppeteer',
-    logo: 'https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg',
+    logo: 'https://seeklogo.com/images/P/puppeteer-logo-2F3C3A6D1B-seeklogo.com.png',
     category: 'Automation',
     gradient: 'from-cyan-500 to-blue-500',
   },
 ];
 
 export function TechStack() {
+  const whatsappUrl = 'https://wa.me/5511910162966?text=Olá!%20Gostaria%20de%20falar%20com%20um%20especialista%20sobre%20o%20stack%20tecnológico%20da%20LIT.';
+  
   return (
-    <section className="py-32 bg-black relative overflow-hidden">
+    <section id="stack" className="py-32 bg-black relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black opacity-50" />
       
@@ -328,7 +330,7 @@ export function TechStack() {
 
           <h2 className="text-5xl md:text-7xl font-black mb-6">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-              RPA, IA & Automação
+              48+ Tecnologias
             </span>
             <br />
             <span className="text-white">Enterprise-Grade</span>
@@ -360,6 +362,10 @@ export function TechStack() {
                     alt={tech.name}
                     className="w-full h-full object-contain filter brightness-110 group-hover:brightness-125 transition-all duration-300"
                     style={{ maxWidth: '100%', maxHeight: '100%' }}
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(tech.name)}&background=random&size=128`;
+                    }}
                   />
                 </div>
 
@@ -394,6 +400,7 @@ export function TechStack() {
             className="px-10 py-5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl font-bold text-lg shadow-2xl"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => window.open(whatsappUrl, '_blank')}
           >
             Fale com um Especialista
           </motion.button>

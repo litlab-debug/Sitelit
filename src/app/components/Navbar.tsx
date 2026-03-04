@@ -1,19 +1,21 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoImage from '/logo.png';
+import logoImage from 'figma:asset/b42421ea06f7ef8f74b09df484e38296b3691a54.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  
+  const whatsappUrl = 'https://wa.me/5511910162966?text=Olá!%20Gostaria%20de%20falar%20com%20um%20especialista%20da%20LIT.';
 
   const links = [
+    { name: 'Sobre', href: '#sobre' },
     { name: 'DNA', href: '#dna' },
     { name: 'Soluções', href: '#solucoes' },
+    { name: 'Serviços', href: '#servicos' },
     { name: 'Stack', href: '#stack' },
-    { name: 'Arquitetura', href: '#arquitetura' },
-    { name: 'Times', href: '#times' },
     { name: 'Cases', href: '#cases' },
-    { name: 'Metodologia', href: '#metodologia' },
+    { name: 'Contato', href: '#contato' },
   ];
 
   return (
@@ -51,13 +53,16 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <motion.button
-              className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-xl font-semibold text-sm hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
+            <motion.a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-xl font-semibold text-sm hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Falar com Especialista
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,9 +93,15 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-xl font-semibold text-sm mt-4">
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-xl font-semibold text-sm mt-4 text-center"
+                onClick={() => setIsOpen(false)}
+              >
                 Falar com Especialista
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
